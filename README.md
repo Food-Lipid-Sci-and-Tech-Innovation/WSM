@@ -12,6 +12,9 @@ Org：KEGG Organisms can be checked in "as.data.frame(keggList("organism"))";
 pvalue_CutOff & qvalue_CutOff：The threshold value for KEGG enrichment analysis;
 # Data Format
 Both metabolomics and proteins data were saved with ".xlsx” format where sheet1 contained biomolecular information and sheet2 contained group information.
+![image](https://github.com/Food-Lipid-Sci-and-Tech-Innovation/WSM/blob/main/metabolomics%20data.png)
+![image](https://github.com/Food-Lipid-Sci-and-Tech-Innovation/WSM/blob/main/proteomics%20data.png)
+![image](https://github.com/Food-Lipid-Sci-and-Tech-Innovation/WSM/blob/main/group.png)
 # Version of Packages
 R version 4.3.1;
 library(openxlsx) : 4.2.5.2;
