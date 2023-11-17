@@ -1,15 +1,15 @@
 # WSM
 # Parameter Description
-DataPath: Set the directory containing metabolomics data and proteomics data;
-MetaboData: Metabolomics data;
-ProteinData：Proteomics data;
-Met_SgnValue：The threshold value for significant metabolite;
-Pro_SgnValue：The threshold value for significant protein;
-SgnType："pvalue" or "FDR";
-CorValue：The threshold value for correlation coefficient;
-Cor_p：The threshold value for the significance of correlation analysis;
-Org：KEGG Organisms can be checked in "as.data.frame(keggList("organism"))";
-pvalue_CutOff & qvalue_CutOff：The threshold value for KEGG enrichment analysis;
+DataPath:Set the directory containing metabolomics data and proteomics data;
+MetaboData:Metabolomics data;
+ProteinData:Proteomics data;
+Met_SgnValue:The threshold value for significant metabolite;
+Pro_SgnValue:The threshold value for significant protein;
+SgnType:"pvalue" or "FDR";
+CorValue:The threshold value for correlation coefficient;
+Cor_p:The threshold value for the significance of correlation analysis;
+Org:KEGG Organisms can be checked in "as.data.frame(keggList("organism"))";
+pvalue_CutOff & qvalue_CutOff:The threshold value for KEGG enrichment analysis.
 # Data Format
 Both metabolomics and proteins data were saved with ".xlsx” format where sheet1 contained biomolecular information and sheet2 contained group information.
 ![image](https://github.com/Food-Lipid-Sci-and-Tech-Innovation/WSM/blob/main/metabolomics%20data.png)
