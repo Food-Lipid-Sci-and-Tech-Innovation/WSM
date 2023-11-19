@@ -9,7 +9,7 @@ SgnType:"pvalue" or "FDR"(pvalue without adjustment, FDR with Benjamini-Hochberg
 CorValue:The threshold value for correlation coefficient;
 Cor_p:The threshold value for the significance of correlation analysis;
 Org:KEGG Organisms can be checked in "as.data.frame(keggList("organism"))";
-pvalue_CutOff & qvalue_CutOff:The threshold value for KEGG enrichment analysis(The p-value and q-value of 1.0 mean all pathway will export, while p-value and q-value of 0.05 are the frequent cutoffs to select the related pathways).
+pvalue_CutOff & qvalue_CutOff:The threshold value for KEGG enrichment analysis (The p-value and q-value of 1.0 mean all pathway will export, while p-value and q-value of 0.05 are the frequent cutoffs to select the related pathways).
 # Data Format
 Both metabolomics and proteins data were saved with ".xlsx” format where sheet1 contained biomolecular information and sheet2 contained group information.
 ![image](https://github.com/Food-Lipid-Sci-and-Tech-Innovation/WSM/blob/main/metabolomics%20data.png)
